@@ -1,8 +1,8 @@
 {
-  "name": "react-website-starter",
+  "name": "playground",
   "private": true,
   "version": "0.0.1",
-  "description": "React website starter",
+  "description": "React + JSX playground.",
   "main": "index.js",
   "scripts": {
     "start": "x0 dev src/index.js -op 8888",
@@ -10,9 +10,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/broccolini/react-website-starter.git"
+    "url": "git+https://github.com/chasemccoy/playground.git"
   },
-  "author": "Diana Mounter",
+  "author": "Chase McCoy",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/broccolini/react-website-starter/issues"
