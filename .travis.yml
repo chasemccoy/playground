@@ -5,16 +5,18 @@ cache:
   directories:
     - "node_modules" # This will tell Travis CI to cache the dependencies
 script: npm build # Here you could also run the build step of your application
+before_install:
+  - printf "//registry.npmjs.org/:_authToken=${NPM_TOKEN}\n" >> .npmrc
 before_deploy: npm install now --no-save # Install Now CLI on Travis
 deploy:
   - provider: script
-    script: now --public --token $NOW_TOKEN
+    script: now --public --forward-npm --token $NOW_TOKEN
     skip_cleanup: true
     on:
       all_branches: true
       master: false
   - provider: script
-    script: now --public --token $NOW_TOKEN && now alias --token $NOW_TOKEN
+    script: now --public --forward-npm --token $NOW_TOKEN && now alias --token $NOW_TOKEN
     skip_cleanup: true
     on:
       master: true
