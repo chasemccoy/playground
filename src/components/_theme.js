@@ -13,11 +13,13 @@ const theme = {
     large: '1012px',
     xlarge: '1280px'
   },
-  fonts: [
-    '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Helvetica', 'Arial', 'sans-serif', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'
-  ],
+  fonts: {
+    0: '-apple-system, system-ui, BlinkMacSystemFont, sans-serif',
+    mono: '"OperatorMono-Book", "SF Mono", "Roboto Mono", Menlo, monospace'
+  },
   lineHeight: 1.5,
   colors: {
+    gray: COLORS.COLOR_NEUTRAL_200,
     neutral: {
       0: COLORS.COLOR_NEUTRAL_0,
       100: COLORS.COLOR_NEUTRAL_100,

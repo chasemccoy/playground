@@ -1,0 +1,46 @@
+details summary {
+	cursor: pointer;
+}
+
+.details-reset > summary {
+	list-style: none;
+}
+
+.details-reset > summary::before {
+	display: none
+}
+
+.details-reset > summary::-webkit-details-marker {
+	display: none
+}
+
+details-dialog {
+	position: fixed;
+	margin: 10vh auto;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 999;
+	max-height: 80vh;
+	width: 448px;
+
+	// custom styles
+	background: white;
+	padding: 24px;
+}
+
+.details-with-dialog[open] > summary {
+	cursor: default;
+}
+
+.details-with-dialog[open] > summary:before {
+	content: " ";
+	background: rgba(0, 0, 0, 0.3);
+	display: block;
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	z-index: 1;
+}
