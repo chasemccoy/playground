@@ -7,19 +7,12 @@ const theme = {
     '1012px',
     '1280px'
   ],
-  maxWidths: {
-    small: '544px',
-    medium: '768px',
-    large: '1012px',
-    xlarge: '1280px'
-  },
   fonts: {
     0: '-apple-system, system-ui, BlinkMacSystemFont, sans-serif',
     mono: '"OperatorMono-Book", "SF Mono", "Roboto Mono", Menlo, monospace'
   },
-  lineHeight: 1.5,
   colors: {
-    gray: COLORS.COLOR_NEUTRAL_200,
+    gray: COLORS.COLOR_NEUTRAL_100,
     neutral: {
       0: COLORS.COLOR_NEUTRAL_0,
       100: COLORS.COLOR_NEUTRAL_100,
@@ -67,7 +60,6 @@ const theme = {
       900: COLORS.COLOR_BLUE_900
     }
   },
-  radii: [ 0, 3, 6 ],
   space: [
     0,
     4,

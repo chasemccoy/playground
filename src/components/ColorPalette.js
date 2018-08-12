@@ -11,7 +11,6 @@ const ColorPalette = styled.div`
 
 ColorPalette.Swatch = styled.div`
   flex: 1;
-  ${'' /* flex-grow: ${p => p.main ? `3` : `1`}; */}
   background: ${p => p.value};
   display: flex;
   align-items: center;
@@ -22,7 +21,7 @@ ColorPalette.Swatch = styled.div`
 
   code {
     font-size: 15px;
-    ${'' /* font-family: 'OperatorMono-Book'; */}
+    background: none;
   }
 
   &:hover {

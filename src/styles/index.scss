@@ -1,3 +1,16 @@
+@import '~@sproutsocial/seeds-color/dist/seeds-color';
+
+pre {
+	word-wrap: normal;
+	overflow: auto;
+}
+
+code {
+	background: $Color-neutral--100;
+	padding: 4px;
+	border-radius: 4px;
+}
+
 details summary {
 	cursor: pointer;
 }

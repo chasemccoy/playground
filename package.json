@@ -5,8 +5,9 @@
   "description": "React + JSX playground.",
   "main": "index.js",
   "scripts": {
-    "start": "x0 dev src/index.js -op 8888",
-    "build": "x0 build src -d dist --static"
+    "start": "x0 docs/index.js -op 8888",
+    "build": "x0 build docs",
+    "deploy": "yarn build && now dist -A ../now.json && now alias"
   },
   "repository": {
     "type": "git",
@@ -19,15 +20,14 @@
   },
   "homepage": "https://github.com/broccolini/react-website-starter#readme",
   "dependencies": {
-    "@compositor/x0": "^6.0.2",
-    "@github/details-menu-element": "^0.3.0",
+    "@compositor/x0": "^6.0.3",
+    "@github/details-menu-element": "^0.5.0",
     "@sproutsocial/seeds-color": "^0.6.0",
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
     "css-loader": "^1.0.0",
     "details-dialog-element": "^1.2.0",
     "react": "^16.2.0",
-    "styled-components": "^3.3.3",
     "styled-system": "^3.0.1",
     "tinycolor2": "^1.4.1"
   },
@@ -49,9 +49,6 @@
         "content": "Simple setup for building sites with React"
       }
     ]
-  },
-  "now": {
-    "alias": "chs-playground"
   },
   "devDependencies": {
     "node-sass": "^4.9.2",

@@ -25,4 +25,6 @@ Text.propTypes = {
 
 Text.p = Text.withComponent('p')
 
+Text.code = Text.withComponent('code')
+
 export default Text

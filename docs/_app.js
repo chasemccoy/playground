@@ -1,9 +1,9 @@
 import React from 'react'
 import { ThemeProvider } from 'styled-components'
-import theme from 'components/_theme'
-import CSS from 'components/_CSS'
+import theme from 'components/theme'
+import CSS from 'components/CSS'
 import { SidebarLayout, ScopeProvider } from '@compositor/x0/components'
-import scope from '_scope'
+import scope from 'scope'
 
 const App = props => (
   <React.Fragment>
