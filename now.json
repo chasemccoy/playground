@@ -1,5 +1,8 @@
 {
   "name": "Playground",
   "alias": "chs-playground",
-  "forwardNpm": true
+  "forwardNpm": true,
+  "env": {
+    "NOW_NPM_TOKEN": "@npm-token"
+  }
 }
