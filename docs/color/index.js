@@ -1,7 +1,7 @@
 import React from 'react'
 import Box from 'components/Box'
 import ColorPalette from 'components/ColorPalette'
-import ColorTokens from '@sproutsocial/seeds-color/dist/tokens.json'
+import ColorTokens from 'seeds-color/tokens.json'
 import { groupArrayBy } from 'components/utils'
 import tinycolor from 'tinycolor2';
 
