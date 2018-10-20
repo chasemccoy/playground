@@ -1,4 +1,4 @@
-import COLORS from '@sproutsocial/seeds-color'
+import COLORS from 'seeds-color/seeds-color'
 
 const theme = {
   breakpoints: [
