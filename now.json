@@ -1,12 +1,5 @@
 {
   "name": "playground",
   "alias": "chs-playground",
-  "type": "static",
-  "forwardNpm": true,
-  "env": {
-    "NOW_NPM_TOKEN": "@npm-token"
-  },
-  "static": {
-    "public": "dist"
-  }
+  "type": "static"
 }
