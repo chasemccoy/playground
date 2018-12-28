@@ -5,7 +5,7 @@
   "description": "React + JSX playground.",
   "main": "index.js",
   "scripts": {
-    "start": "x0 docs -op 8888",
+    "start": "x0 docs -p 8888",
     "build": "x0 build docs",
     "now-build": "x0 build docs"
   },

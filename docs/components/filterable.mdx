@@ -1,0 +1,17 @@
+import Filterable from 'components/Filterable'
+
+# The `Filterable` Component
+
+```.jsx
+<Filterable 
+	options={['Option 1', 'Option 2', 'Option 3']}
+	onChange={option => console.log(option)}
+>
+	{(Filter) => (
+		<>
+			<Filter />
+			<p>Show a filtered list here...</p>
+		</>
+	)}
+</Filterable>
+```
