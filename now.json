@@ -1,5 +1,9 @@
 {
+  "version": 2,
   "name": "playground",
   "alias": "chs-playground",
-  "type": "static"
+  "public": true,
+  "builds": [
+    { "src": "package.json", "use": "@now/static-build" }
+  ]
 }
