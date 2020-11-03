@@ -2,7 +2,7 @@
   "name": "playground",
   "private": true,
   "version": "0.0.1",
-  "description": "React + JSX playground.",
+  "description": "React + MDX playground.",
   "main": "index.js",
   "scripts": {
     "start": "x0 docs -p 8888",
@@ -15,10 +15,6 @@
   },
   "author": "Chase McCoy",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/broccolini/react-website-starter/issues"
-  },
-  "homepage": "https://github.com/broccolini/react-website-starter#readme",
   "dependencies": {
     "@compositor/x0": "^6.0.3",
     "@github/details-menu-element": "^0.5.0",
