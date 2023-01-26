@@ -179,10 +179,6 @@
     "@shellscape/koa-send" "^4.1.0"
     debug "^2.6.8"
 
-"@sproutsocial/seeds-color@^0.6.0":
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/@sproutsocial/seeds-color/-/seeds-color-0.6.0.tgz#26d564004b930f3eee30f91b930d0c7e8e5bffac"
-
 "@webassemblyjs/ast@1.5.13":
   version "1.5.13"
   resolved "https://registry.yarnpkg.com/@webassemblyjs/ast/-/ast-1.5.13.tgz#81155a570bd5803a30ec31436bc2c9c0ede38f25"
@@ -6339,8 +6335,8 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
 
 ua-parser-js@^0.7.18:
-  version "0.7.18"
-  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.18.tgz#a7bfd92f56edfb117083b69e31d2aa8882d4b1ed"
+  version "0.7.33"
+  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.33.tgz#1d04acb4ccef9293df6f70f2c3d22f3030d8b532"
 
 uglify-es@^3.3.4:
   version "3.3.9"
